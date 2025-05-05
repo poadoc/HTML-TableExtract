@@ -438,7 +438,6 @@ sub _reset_state {
   $self->{_counts}        = [];
   $self->{_in_a_table}    = 0;
   $self->{_parsing}       = 0;
-  $self->tree->delete_content() if TREE();
 }
 
 sub _emsg {
